@@ -5,6 +5,7 @@
 
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -14,7 +15,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/1022/45/253/motobike-heavy-1920x1080-bikes-wallpaper-preview.jpg");
+  /*background-image: url("https://c4.wallpaperflare.com/wallpaper/1022/45/253/motobike-heavy-1920x1080-bikes-wallpaper-preview.jpg");*/
   background-position: center center;
   background-size: cover;
   transition: 0.4s;
@@ -60,11 +61,12 @@ body::before {
   /*z-index: 100;*/
   background-color: transparent;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  border: 3px solid orange;
+  border: 3px solid;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .arrow:focus {
@@ -72,8 +74,8 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(17vw - 67px);
 }
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(17vw - 67px);
 }
