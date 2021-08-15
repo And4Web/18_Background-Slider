@@ -15,4 +15,18 @@ body {
   height: 100vh;
   overflow: hidden;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/1022/45/253/motobike-heavy-1920x1080-bikes-wallpaper-preview.jpg");
+  background-position: center center;
+  background-size: cover;
+  transition: 0.4s;
+}
+
+body::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }
