@@ -48,9 +48,20 @@ body::before {
   position: absolute;
   top: -15vh;
   left: -15vw;
-  z-index: -1;
+  z-index: 1;
   transition: 0.4s ease;
 }
 .slider.active {
   opacity: 1;
+}
+
+.arrow {
+  position: fixed;
+  z-index: 100;
+  background-color: transparent;
+  padding: 20px;
+  font-size: 30px;
+  border: 3px solid orange;
+  top: 50%;
+  transform: translateY(-50%);
 }
